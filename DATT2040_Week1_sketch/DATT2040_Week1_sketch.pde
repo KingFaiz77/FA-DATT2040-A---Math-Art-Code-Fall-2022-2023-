@@ -8,7 +8,7 @@ void setup() {
 void draw() {
   t += 0.01;
   background(89,117,125);
-  stroke(200,190,160);
+  stroke(200,190,160,90);
   for (float x = CELL_SIZE / 2; x < width; x += CELL_SIZE) {
     for (float y = CELL_SIZE / 2; y < height; y += CELL_SIZE) {
       PVector p = new PVector(x, y);
